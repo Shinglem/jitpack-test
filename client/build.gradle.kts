@@ -2,7 +2,13 @@ plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     java
     kotlin("jvm")
+    maven
 }
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+}
+
 
 tasks {
 
